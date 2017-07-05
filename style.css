@@ -1,0 +1,26 @@
+/*
+	Theme Name: Mattia Rubini Theme
+	Theme URI: https://mattiarubini.com
+	Author: Mattia Rubini
+	Author URI: https://mattiarubini.com
+	Description: Main website theme of Mattia Rubini
+	Version: 1.0
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: black
+	Text Domain: customtheme
+*/
+#custom-navbar{
+	margin-bottom: 0px;
+}
+
+
+
+#site-footer{
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	
+	text-align: center;
+}
