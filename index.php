@@ -5,7 +5,7 @@
     <div class = "container">
         <div id = "home-header" class = "row">
             
-            <img src="/wp-content/themes/mattiarubiniCom/profile-pic.jpg" class="img-responsive col-xs-4" alt="Profile Pic">
+            <img src="<?php bloginfo('template_url'); ?>/images/profile-pic.jpg" class="img-responsive col-xs-4" alt="Profile Pic">
             <h1 class = "col-xs-8">Welcome to the home page</h1>
             
         </div>

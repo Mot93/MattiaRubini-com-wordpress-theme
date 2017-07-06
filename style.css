@@ -20,12 +20,14 @@ html, body{
 }
 
 footer{
-	height: 100px;
+	height: 80px;
+	text-align: center;
+	padding: 5px;
 }
 
 #wrapper{
 	min-height: 100%;
-	margin-bottom: -100px;
+	margin-bottom: -80px;
 }
 
 #push{
