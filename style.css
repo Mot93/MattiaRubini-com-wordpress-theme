@@ -11,19 +11,33 @@
 	Text Domain: customtheme
 */
 
-.horizontal-tag-align{
-    text-align:center;
+.custom-head-foot{
+	background-color: #c0c0c0;
+}
+
+html, body{
+	height: 100%;
+}
+
+footer{
+	height: 100px;
+}
+
+#wrapper{
+	min-height: 100%;
+	margin-bottom: -100px;
+}
+
+#push{
+	height: 100px;
+}
+
+#github-segment{
+	background-color: #CFCECC;
 }
 
 #custom-navbar{
 	margin-bottom: 0px;
-}
-
-#site-footer{
-    position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	
-	text-align: center;
+	border: 0;
+	border-radius: 0;
 }

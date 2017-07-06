@@ -1,7 +1,6 @@
 <!--Injected the header partial-->
 <?php get_header(); ?>
 
-
 <div class = "jumbotron">
     <div class = "container">
         <div id = "home-header" class = "row">
@@ -23,6 +22,6 @@
         <?php endwhile; ?>
 	<?php endif; ?>
 </div>
-        
+
 <!--Injected the footer partial-->
 <?php get_footer(); ?>      
