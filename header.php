@@ -15,18 +15,21 @@
         
         <header class>
             
-            <!--Need to fix different row
-            <div>
-            
-                <h6>If you want to check the source code of this wordpress theme </h6>
+            <div class = "container">
                 
-                <button type="submit" class="btn btn-default">click here to reach the github folder</button>
+                <div class = "row">
+                
+                    <h4 class = "col-xs-8">If you want to check out the source code of this wordpress theme </h6>
+                    
+                    <a href="https://github.com/Mot93/MattiaRubini-com-wordpress-theme" class="btn btn-default btn-lg active col-xs-4" role="button" target="_blank">click here to reach the github folder</a>
+                
+                </div>
+                
+            </div>
             
-            </div>-->
-            
-            <!--nav and div tag are the container of theheader menu-->
+            <!--nav and div tag are the container of the header menu-->
             <nav id = "custom-navbar" class="navbar navbar-default">
-                <div class="container-fluid">
+                <div class="container">
                     
                     <!--Contain both the button on the top left and the button when it collapse-->
                     <div class="navbar-header">

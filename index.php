@@ -1,10 +1,16 @@
 <!--Injected the header partial-->
 <?php get_header(); ?>
 
+
 <div class = "jumbotron">
-    
-    <h1>Welcome to the home page</h1>
-    
+    <div class = "container">
+        <div id = "home-header" class = "row">
+            
+            <img src="/wp-content/themes/mattiarubiniCom/profile-pic.jpg" class="img-responsive col-xs-4" alt="Profile Pic">
+            <h1 class = "col-xs-8">Welcome to the home page</h1>
+            
+        </div>
+    </div>
 </div>
 
 <div class = "container">

@@ -10,11 +10,14 @@
 	Tags: black
 	Text Domain: customtheme
 */
+
+.horizontal-tag-align{
+    text-align:center;
+}
+
 #custom-navbar{
 	margin-bottom: 0px;
 }
-
-
 
 #site-footer{
     position: fixed;
