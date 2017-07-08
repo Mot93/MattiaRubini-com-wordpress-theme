@@ -1,9 +1,15 @@
-<!--Injected the header partial-->
-<?php get_header(); ?>
+<?php
+/**
+ * The template for displaying all single posts and attachments
+ *
+ * @package MattiaRubini-com-wordpress-theme
+ * @since ???
+ */
 
-<div id = "main-body">
+/*Injected the header partial*/
+get_header(); ?>
 
-    <h1>Blog page</h1>
+<div id = "content">
     
     <div class = "container">
         <?php if ( have_posts() ) : //The beginning of "the loot" ?>

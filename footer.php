@@ -1,3 +1,13 @@
+<?php
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the "site-content" div and all content after.
+ *
+ * @package MattiaRubini-com-wordpress-theme
+ * @since ???
+ */
+?>
         
             <div id = "push" class = "distance-content-footer"></div>
         

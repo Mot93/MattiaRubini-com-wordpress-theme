@@ -1,3 +1,14 @@
+<?php
+/**
+ * The template for displaying the header
+ *
+ * Displays all of the head element and everything up until the "site-content" div.
+ *
+ * @package MattiaRubini-com-wordpress-theme
+ * @since ???
+ */
+?>
+
 <!--Body and HTML tags will be closed in the footer-->
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> >
