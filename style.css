@@ -22,7 +22,7 @@
 
 /*html, body and #wrapper have been set up to accomodate a gratious footer*/
 html, body{
-	height: 100%;
+	min-height: 100%;
 	background-color: #F5F2EE;
 }
 #wrapper{
@@ -41,9 +41,9 @@ footer{
 	padding: 5px;
 }
 
-/*Footer and push must have the same height*/
-.footer-height{
-	height: 80px;
+/*Push prevent the footer to overlap the content*/
+.distance-content-footer{
+	height: 100px;
 }
 
 /*Customizations of the nav bar*/
@@ -58,5 +58,4 @@ footer{
 /*customization of the segment on top with the github button*/
 #github-segment{
 	text-align: center;
-	height: 24px;
 }

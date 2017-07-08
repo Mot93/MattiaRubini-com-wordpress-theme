@@ -1,9 +1,9 @@
         
-            <div id = "push" class = "footer-height"></div>
+            <div id = "push" class = "distance-content-footer"></div>
         
         </div> <!--wrapper-->
         
-        <footer class = "fluid-container custom-head-foot footer-height">
+        <footer class = "fluid-container custom-head-foot">
             
             <h4>Big thanks to the following service that helped me all the way Build this website and archive my projects.</h4>
             <h4>Thanks: 
