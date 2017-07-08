@@ -6,7 +6,7 @@
         <div id = "home-header" class = "row">
             
             <img src="<?php bloginfo('template_url'); ?>/images/profile-pic.jpg" class="img-responsive col-xs-4" alt="Profile Pic">
-            <h1 class = "col-xs-8">Welcome to the home page</h1>
+            <h1 class = "col-xs-8">Mattia's Blog</h1>
             
         </div>
     </div>

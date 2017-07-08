@@ -10,36 +10,47 @@
 	Tags: black
 	Text Domain: customtheme
 */
+/*Trying to make a css variable
+:root{
+    --main-color:#EDEBE6;
+}*/
 
+/*Both the nav bar and the footer must have the same colors*/
 .custom-head-foot{
 	background-color: #c0c0c0;
 }
 
+/*html, body and #wrapper have been set up to accomodate a gratious footer*/
 html, body{
 	height: 100%;
+	background-color: #F5F2EE;
 }
-
-footer{
-	height: 80px;
-	text-align: center;
-	padding: 5px;
-}
-
 #wrapper{
 	min-height: 100%;
 	margin-bottom: -80px;
 }
 
-#push{
-	height: 100px;
+footer{
+	text-align: center;
+	padding: 5px;
 }
 
-#github-segment{
-	background-color: #CFCECC;
+/*Footer and push must have the same height*/
+.footer-height{
+	height: 80px;
 }
 
+/*Customizations of the nav bar*/
 #custom-navbar{
 	margin-bottom: 0px;
 	border: 0;
-	border-radius: 0;
+	/*Must be the same as html and bodybackground-color*/
+	border-color: #EDEBE6;
+	/*border-radius: 0;*/
+}
+
+/*customization of the segment on top with the github button*/
+#github-segment{
+	text-align: center;
+	height: 24px;
 }

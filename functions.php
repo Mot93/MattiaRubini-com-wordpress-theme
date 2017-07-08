@@ -26,6 +26,10 @@ function enqueue_custom_menus(){
         'top-right-menu',__( 'Header Menu' )
     );
     
+    /*Add theme support for title tag 
+     *Makes your website title appear on the tab*/
+    add_theme_support( 'title-tag' );
+    
 }
 add_action('after_setup_theme', 'enqueue_custom_menus');
 

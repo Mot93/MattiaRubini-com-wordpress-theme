@@ -17,15 +17,13 @@
             <header>
             
                 <div id = "github-segment">
-                    <div class = "container">
-                        <div class = "row">
-                            <h4 class = "col-md-6 col-md-offset-3">
+                    
+                            <h6 >
                                 
-                                WordPress theme source code avaliable on <a href="https://github.com/Mot93/MattiaRubini-com-wordpress-theme" class="btn btn-info active" role="button" target="_blank">GitHub</a>
+                                WordPress theme source code avaliable on <a href="https://github.com/Mot93/MattiaRubini-com-wordpress-theme" class="btn btn-info btn-xs active" role="button" target="_blank">GitHub</a>
                             
-                            </h4>
-                        </div>
-                    </div>
+                            </h6>
+                        
                 </div> <!--github segment-->
                 
                 <!--nav and div tag are the container of the header menu-->
@@ -35,8 +33,8 @@
                         <!--Contain both the button on the top left and the button when it collapse-->
                         <div class="navbar-header">
                             
-                            <!--button on top left-->
-                            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a> 
+                            <!--Home ebutton on top left-->
+                            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home <span class="sr-only">(current)</span></a> 
                             
                             <!--collapsed menu-->
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -51,8 +49,7 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <!--Container of my link that are on the far right, they collapse with a small screen-->
-                            <ul class="nav navbar-nav navbar-right">
-                                
+                            <ul class="nav navbar-nav navbar-right ">
                                 <!--This code inject the dynamic menu inside thge av bar-->
             					<!-- The Dynamic menu is managed in the admin section of word press-->
             					<?php 
@@ -69,7 +66,6 @@
             							) 
             						); 
             					?>
-                                
                             </ul> <!--dynamic menu unordered list-->
                         </div> <!--dynamic menu div-->
                         
