@@ -1,7 +1,7 @@
 <!--Injected the header partial-->
 <?php get_header(); ?>
 
-<div class = "jumbotron">
+<div class = "jumbotron index-jumbotron-customization">
     <div class = "container">
         <div id = "home-header" class = "row">
             

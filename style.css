@@ -30,6 +30,12 @@ html, body{
 	margin-bottom: -80px;
 }
 
+/*The background color need to match the color of the html and body*/
+.index-jumbotron-customization{
+	background-color: #F5F2EE;
+}
+
+/*Minor footer tweaking*/
 footer{
 	text-align: center;
 	padding: 5px;
