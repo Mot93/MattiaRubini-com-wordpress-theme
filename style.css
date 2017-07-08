@@ -22,7 +22,9 @@
 
 /*html, body and #wrapper have been set up to accomodate a gratious footer*/
 html, body{
-	min-height: 100%;
+	/*using min-height instead of height will "breack the footer"
+	 *the foter wont stay at the bottom of the page*/
+	height: 100%;
 	background-color: #F5F2EE;
 }
 #wrapper{
@@ -41,9 +43,9 @@ footer{
 	padding: 5px;
 }
 
-/*Push prevent the footer to overlap the content*/
-.distance-content-footer{
-	height: 100px;
+/*Push prevent the footer to lay above the content*/
+#push{
+	height: 150px;
 }
 
 /*Customizations of the nav bar*/
