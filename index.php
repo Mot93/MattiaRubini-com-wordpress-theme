@@ -13,8 +13,8 @@
  * @since ???
  */
 
-<!--Injected the header partial-->
-<?php get_header(); ?>
+/*Injected the header partial*/
+get_header(); ?>
 
 <div id = "content" >
     <div class = "jumbotron index-jumbotron-customization">
@@ -22,7 +22,10 @@
             <div id = "home-header" class = "row">
                 
                 <img src="<?php bloginfo('template_url'); ?>/images/profile-pic.jpg" class="img-responsive col-xs-4" alt="Profile Pic">
-                <h1 class = "col-xs-8">Mattia's Blog</h1>
+                <div class = "col-xs-8">
+                    <h1>Mattia's Blog</h1>
+                    <h3>Welcome to my personal website, I hope you'll find it of your liking</h3>
+                </div>
                 
             </div>
         </div>

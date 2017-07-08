@@ -31,16 +31,6 @@
         <div id = "wrapper" >
             
             <header>
-            
-                <div id = "github-segment">
-                    
-                            <h6 >
-                                
-                                WordPress theme source code avaliable on <a href="https://github.com/Mot93/MattiaRubini-com-wordpress-theme" class="btn btn-info btn-xs active" role="button" target="_blank">GitHub</a>
-                            
-                            </h6>
-                        
-                </div> <!--github segment-->
                 
                 <!--nav and div tag are the container of the header menu-->
                 <nav id = "custom-navbar" class="navbar navbar-default custom-head-foot">

@@ -20,7 +20,10 @@ get_header(); ?>
             <?php while ( have_posts() ) : the_post(); //Default loop code ?>
     	
     			<h1><?php the_title(); ?></h1>
-    			<?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
+    			
+    			<h3>
+    			    <?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
+                </h3>
     	
             <?php endwhile; ?>
     	<?php endif; ?>
