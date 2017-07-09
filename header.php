@@ -40,7 +40,7 @@
                         <div class="navbar-header">
                             
                             <!--Home ebutton on top left-->
-                            <a class="navbar-brand custom-head-foot" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a> 
+                            <a id = "home-button" class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a> 
                             
 
                             <!--collapsed menu-->
@@ -55,30 +55,32 @@
                         
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <!--Container of my link that are on the far right, they collapse with a small screen-->
-                            <ul class="nav navbar-nav navbar-right">
-                                <!--This code inject the dynamic menu inside the av bar-->
-            					<!-- The Dynamic menu is managed in the admin section of word press-->
-            					<?php 
-            						wp_nav_menu( 
-            							array(
-            								/*must have this link to function.php
-            								 *In function.php we defined this menu 'alphamenu'*/
-            								'theme_location' => 'top-right-menu',
-            								/*this line of code removes the default menu appearence*/
-            								'container'      => false,
-            								/*this line makes the menu with the same layout specified above 
-            								 *(same as link 1 and 2)*/
-            								'items_wrap'	 => '%3$s',
-            								/*CSS class applied to the menu*/
-            								'menu_class'     => 'nav navbar-nav custom-head-foot',
-            								'menu_id'        => 'custom-dynamic-menu'
-            							) 
-            						); 
-            					?>
-                            </ul> <!--dynamic menu unordered list-->
-                        </div> <!--dynamic menu div-->
                         
+                            <!--Always remember that this 
+                               *This code inject the dynamic menu inside the nav bar
+        					   *The links inside the dynamic menu are managed in the admin section of wordpress
+        					   *The dynamic menu is made this way: <div> <ul>  </ul> </div>
+        					   *Every link adds this structure inside the previous <li> <a><a> </li>
+        					   * What happen when there are 2 links <div> <ul> <li><a><a></li> <li><a><a></li> </ul> </div>-->
+        					<?php 
+        						wp_nav_menu( 
+        							array(
+        								/*must have this link to function.php
+        								 *In function.php we defined this menu 'alphamenu'*/
+        								'theme_location'   => 'top-right-menu',
+        								/*Reoving the external div*/
+        								'container'        => false,
+        								/*This parameter define the class of the ul mentioned above
+        								 *Never forget to check bootstrap and insert the appropriate classes
+        								 *It's possible to add even more classes for more personalization*/
+        								'menu_class'       => 'nav navbar-nav navbar-right custom-head-foot',
+        								'menu_id'          => 'dynamic-menu-custom-ul'
+        							) 
+        						); 
+        					?>
+            					
+                        </div> <!--dynamic menu div-->
+                    
                     </div> <!--container-->
                 </nav> <!--navigation bar-->
             

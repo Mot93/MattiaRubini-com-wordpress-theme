@@ -11,18 +11,27 @@ get_header(); ?>
 
 <div id = "content">
     
-    <div class = "container">
-        <?php if ( have_posts() ) : //The beginning of "the loot" ?>
-            <?php while ( have_posts() ) : the_post(); //Default loop code ?>
-    	
-    			<h1><?php the_title(); ?></h1>
-    			
-    			<h3>
-    			    <?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
-    	        </h3>
-    	
-            <?php endwhile; ?>
-    	<?php endif; ?>
+    <div class = "container-fluid">
+        <div class = "container">
+            
+            <h1><?php the_title(); ?></h1>
+            <h4>Published the <?php echo get_the_date('d F Y'); ?></h4>
+        
+        </div>
+        
+        <div class = "container">
+            <?php if ( have_posts() ) : //The beginning of "the loot" ?>
+                <?php while ( have_posts() ) : the_post(); //Default loop code ?>
+        	
+        			
+        			
+        			<h3>
+        			    <?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
+        	        </h3>
+        	
+                <?php endwhile; ?>
+        	<?php endif; ?>
+        </div>
     </div>
 
 </div>

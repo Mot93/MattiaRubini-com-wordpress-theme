@@ -18,7 +18,12 @@
 /*Both the nav bar and the footer must have the same colors*/
 .custom-head-foot{
 	background-color: #25A8FF;
-	color:red;
+	color: white;
+}
+
+/*This code personalize the links (<a>) inside the dynamic menu*/
+#dynamic-menu-custom-ul > li > a{
+	color: white;
 }
 
 /*Let's change all the links color
@@ -70,4 +75,8 @@ footer{
 /*customization of the segment on top with the github button*/
 #github-segment{
 	text-align: center;
+}
+
+#home-button{
+	color: white;
 }
