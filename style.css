@@ -17,7 +17,12 @@
 
 /*Both the nav bar and the footer must have the same colors*/
 .custom-head-foot{
-	background-color: #c0c0c0;
+	background-color: #25A8FF;
+	color:red;
+}
+
+#custom-dynamic-menu{
+	color: red;
 }
 
 /*html, body and #wrapper have been set up to accomodate a gratious footer*/
@@ -53,8 +58,8 @@ footer{
 	margin-bottom: 0px;
 	border: 0;
 	/*Must be the same as html and bodybackground-color*/
-	border-color: #EDEBE6;
-	/*border-radius: 0;*/
+	/*border-color: #EDEBE6;*/
+	border-radius: 0;
 }
 
 /*customization of the segment on top with the github button*/

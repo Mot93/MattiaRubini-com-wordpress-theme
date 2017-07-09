@@ -40,8 +40,9 @@
                         <div class="navbar-header">
                             
                             <!--Home ebutton on top left-->
-                            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home <span class="sr-only">(current)</span></a> 
+                            <a class="navbar-brand custom-head-foot" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a> 
                             
+
                             <!--collapsed menu-->
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
@@ -55,7 +56,7 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <!--Container of my link that are on the far right, they collapse with a small screen-->
-                            <ul class="nav navbar-nav navbar-right ">
+                            <ul class="nav navbar-nav navbar-right">
                                 <!--This code inject the dynamic menu inside thge av bar-->
             					<!-- The Dynamic menu is managed in the admin section of word press-->
             					<?php 
@@ -68,7 +69,10 @@
             								'container'      => false,
             								/*this line makes the menu with the same layout specified above 
             								 *(same as link 1 and 2)*/
-            								'items_wrap'	 => '%3$s'
+            								'items_wrap'	 => '%3$s',
+            								/*CSS class applied to the menu*/
+            								'menu_class'     => 'nav navbar-nav custom-head-foot',
+            								'menu_id'        => 'custom-dynamic-menu'
             							) 
             						); 
             					?>
