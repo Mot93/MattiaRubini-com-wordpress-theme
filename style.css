@@ -21,9 +21,40 @@
 	color: white;
 }
 
+#single-post-costumization{
+	/*margin: 50px;*/
+}
+.single-post-customization{
+	/*border work*/
+	border-style: solid;
+	border-color: orange;
+	border-radius: 10px;
+	/*other stuff*/
+	margin-top: 30px;
+	background-color: orange;
+}
+
+/*Icon bar is the ID of the icon paced in the menu after it has collapsed*/
+#collapse-icon {
+	border-color:white !important;
+}
+#collapse-icon:hover{
+	background-color: white !important;
+}
+/*Should be deactivated*/
+#collapse-icon:focus{
+	background-color: #25A8FF !important;
+}
+#collapse-icon > span{
+	color: pink !important;
+}
+
 /*This code personalize the links (<a>) inside the dynamic menu*/
 #dynamic-menu-custom-ul > li > a{
 	color: white;
+}
+#dynamic-menu-custom-ul > li > a:hover{
+	background-color: blue;
 }
 
 /*Let's change all the links color

@@ -43,8 +43,8 @@
                             <a id = "home-button" class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a> 
                             
 
-                            <!--collapsed menu-->
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <!--This is the button that appear when everything collapse-->
+                            <button id="collapse-icon" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>

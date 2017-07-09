@@ -13,7 +13,7 @@
 /*Injected the header partial*/
 get_header(); ?>
 
-<div id = "content">
+<div id = "page-content">
     
     <div class = "container">
         <?php if ( have_posts() ) : //The beginning of "the loot" ?>

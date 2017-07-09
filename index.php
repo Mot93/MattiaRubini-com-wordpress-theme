@@ -16,7 +16,7 @@
 /*Injected the header partial*/
 get_header(); ?>
 
-<div id = "content" >
+<div id = "index-content" >
     <div class = "jumbotron index-jumbotron-customization">
         <div class = "container">
             <div id = "home-header" class = "row">
@@ -24,7 +24,8 @@ get_header(); ?>
                 <img src="<?php bloginfo('template_url'); ?>/images/profile-pic.jpg" class="img-responsive col-xs-4" alt="Profile Pic">
                 <div class = "col-xs-8">
                     <h1>Mattia's Blog</h1>
-                    <h3>Welcome to my personal website, I hope you'll find it of your liking</h3>
+                    <h3>Welcome to my personal website, I hope you'll find it of your liking.</h3>
+                    <h3>If you don't it's too late >:) </h3>
                 </div>
                 
             </div>
