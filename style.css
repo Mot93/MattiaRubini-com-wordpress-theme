@@ -21,9 +21,10 @@
 	color:red;
 }
 
-#custom-dynamic-menu{
-	color: red;
-}
+/*Let's change all the links color
+a {
+	color: green;
+}*/
 
 /*html, body and #wrapper have been set up to accomodate a gratious footer*/
 html, body{
@@ -37,7 +38,7 @@ html, body{
 	margin-bottom: -80px;
 }
 
-/*The background color need to match the color of the html and body*/
+/*The jumbotron background color need to match the color of the html and body*/
 .index-jumbotron-customization{
 	background-color: #F5F2EE;
 }
@@ -46,6 +47,10 @@ html, body{
 footer{
 	text-align: center;
 	padding: 5px;
+}
+
+#custom-dynamic-menu{
+	color: red;
 }
 
 /*Push prevent the footer to lay above the content*/

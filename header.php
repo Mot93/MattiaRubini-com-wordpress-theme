@@ -57,7 +57,7 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <!--Container of my link that are on the far right, they collapse with a small screen-->
                             <ul class="nav navbar-nav navbar-right">
-                                <!--This code inject the dynamic menu inside thge av bar-->
+                                <!--This code inject the dynamic menu inside the av bar-->
             					<!-- The Dynamic menu is managed in the admin section of word press-->
             					<?php 
             						wp_nav_menu( 
