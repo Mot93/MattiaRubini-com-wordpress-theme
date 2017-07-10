@@ -25,12 +25,8 @@
 /*Customize di "container" of the post*/
 .single-post-customization{
 	margin-top: 30px;
-	background-color: orange;
+	background-color: yellow;
 	padding: 0;
-}
-
-p {
-	font-size: 19px;
 }
 
 /*Icon bar is the ID of the icon paced in the menu after it has collapsed*/
@@ -46,7 +42,7 @@ p {
 /*Should be deactivated*/
 .collapse-icon-customization:focus{
 	background-color: #25A8FF !important;
-}*/
+}
 
 /*This code personalize the links (<a>) inside the dynamic menu
  *It is possible thanks to the selector >*/
@@ -68,6 +64,11 @@ p {
 /*Let's change all the links color*/
 a {
 	color: green;
+}
+
+/*Using p to wrap a page or blog post content*/
+p {
+	font-size: 19px;
 }
 
 /*This way all images are contained inside theyr container*/
@@ -102,3 +103,13 @@ footer{
 .push-customization{
 	height: 150px;
 }
+
+.custom-home-glyphicon-bootstrap{
+	color: white;
+}
+
+.black-button{
+	color: white;
+	background-color: black;
+}
+
