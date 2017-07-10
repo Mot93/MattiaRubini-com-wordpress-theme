@@ -19,37 +19,37 @@
 .custom-head-foot{
 	background-color: #25A8FF;
 	color: white;
+	font-size: 17px;
 }
 
-#single-post-costumization{
-	/*margin: 50px;*/
-}
+/*Customize di "container" of the post*/
 .single-post-customization{
-	/*border work*/
-	border-style: solid;
-	border-color: orange;
-	
-	/*other stuff*/
 	margin-top: 30px;
 	background-color: orange;
+	padding: 0;
+}
+
+p {
+	font-size: 19px;
 }
 
 /*Icon bar is the ID of the icon paced in the menu after it has collapsed*/
-#collapse-icon {
-	border-color:white !important;
+.collapse-icon-customization {
+	border-color: white !important;
 }
-#collapse-icon:hover{
+.collapse-icon-customization:hover{
+	background-color: blue !important;
+}
+.trio-bar-collapse-button{
 	background-color: white !important;
 }
 /*Should be deactivated*/
-#collapse-icon:focus{
+.collapse-icon-customization:focus{
 	background-color: #25A8FF !important;
-}
-#collapse-icon > span{
-	color: pink !important;
-}
+}*/
 
-/*This code personalize the links (<a>) inside the dynamic menu*/
+/*This code personalize the links (<a>) inside the dynamic menu
+ *It is possible thanks to the selector >*/
 #dynamic-menu-custom-ul > li > a{
 	color: white;
 }
@@ -57,10 +57,24 @@
 	background-color: blue;
 }
 
-/*Let's change all the links color
+/*Customizations of the nav bar*/
+.no-border-navbar{
+	border-radius: 0 !important;
+	border: 0 !important;
+	/*Must be the same as html and bodybackground-color*/
+	/*border-color: #EDEBE6;*/
+}
+
+/*Let's change all the links color*/
 a {
 	color: green;
-}*/
+}
+
+/*This way all images are contained inside theyr container*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /*html, body and #wrapper have been set up to accomodate a gratious footer*/
 html, body{
@@ -69,7 +83,7 @@ html, body{
 	height: 100%;
 	background-color: #F5F2EE;
 }
-#wrapper{
+.wrapper-custom{
 	min-height: 100%;
 	margin-bottom: -80px;
 }
@@ -84,30 +98,7 @@ footer{
 	text-align: center;
 	padding: 5px;
 }
-
-#custom-dynamic-menu{
-	color: red;
-}
-
 /*Push prevent the footer to lay above the content*/
-#push{
+.push-customization{
 	height: 150px;
-}
-
-/*Customizations of the nav bar*/
-#custom-navbar{
-	margin-bottom: 0px;
-	border: 0;
-	/*Must be the same as html and bodybackground-color*/
-	/*border-color: #EDEBE6;*/
-	border-radius: 0;
-}
-
-/*customization of the segment on top with the github button*/
-#github-segment{
-	text-align: center;
-}
-
-#home-button{
-	color: white;
 }

@@ -28,27 +28,31 @@
     </head>
     
     <body>
-        <div id = "wrapper" >
+        <div class = "wrapper-custom" >
             
             <header>
                 
                 <!--nav and div tag are the container of the header menu-->
-                <nav id = "custom-navbar" class="navbar navbar-default custom-head-foot">
-                    <div class="container">
+                <nav id "custom-navbar" class="navbar navbar-default custom-head-foot no-border-navbar">
+                    
+                    <!--conteiner of the collapsed button and the home button-->
+                    <div class="container overf-custom no-border-navbar">
                         
                         <!--Contain both the button on the top left and the button when it collapse-->
                         <div class="navbar-header">
                             
-                            <!--Home ebutton on top left-->
-                            <a id = "home-button" class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a> 
+                            <!--Home button on top left-->
+                            <a id = "home-button" class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                                <img src="<?php bloginfo('template_url'); ?>/images/home-icon.png" alt="home icon">
+                                <!--<span>Home</span>-->
+                            </a><!--Home button--> 
                             
-
                             <!--This is the button that appear when everything collapse-->
-                            <button id="collapse-icon" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <button id="collapse-icon" type="button" class="navbar-toggle collapsed collapse-icon-customization" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                 <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
+                                <span class="icon-bar trio-bar-collapse-button"></span>
+                                <span class="icon-bar trio-bar-collapse-button"></span>
+                                <span class="icon-bar trio-bar-collapse-button"></span>
                               </button>
                               
                         </div><!--navbar-header-->

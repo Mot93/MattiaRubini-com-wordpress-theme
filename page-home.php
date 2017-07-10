@@ -1,13 +1,12 @@
 <?php
 /**
- * The main template file
+ * Template Name: Home Page
+ * 
+ * The template for displaying pages
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * e.g., it puts together the home page when no home.php file exists.
- *
- * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages and that
+ * other "pages" on your WordPress site will use a different template.
  *
  * @package MattiaRubini-com-wordpress-theme
  * @since ???
@@ -27,12 +26,11 @@ get_header(); ?>
                     <!--Non customizable -->    
                     <h1>Mattia's Blog</h1>
                     <h4>Welcome to my personal website, I hope you'll find it of your liking.</h4>
-                    <h4>If you don't it's too late :D</h4>
+                    <h4>If you don't it's too late >:)</h4>
                     
-                    <!--customizable field
-                    <h1><?php /*echo get_post_meta( get_the_ID(), 'Homepage-Title', true ); */?></h1>
-                    <h4><?php /*echo get_post_meta( get_the_ID(), 'Homepage-Sub-Title', true ); */?></h4>
-                    -->
+                    <!--customizable field-->
+                    <h1><?php echo get_post_meta( get_the_ID(), 'Homepage-Title', true ); ?></h1>
+                    <h4><?php echo get_post_meta( get_the_ID(), 'Homepage-Sub-Title', true ); ?></h4>
                 
                 </div>
                 
@@ -53,4 +51,4 @@ get_header(); ?>
 </div><!--index container-->
 
 <!--Injected the footer partial-->
-<?php get_footer(); ?>      
+<?php get_footer(); ?>

@@ -27,9 +27,9 @@ get_header(); ?>
             	
             			
             			
-            			<h3>
+            			<p>
             			    <?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
-            	        </h3>
+            	        </p>
             	
                     <?php endwhile; ?>
             	<?php endif; ?>

@@ -9,14 +9,14 @@
  */
 ?>
         
-            <div id = "push" class = "distance-content-footer"></div>
+            <div id = "push" class = "distance-content-footer push-customization"></div>
         
         </div> <!--wrapper-->
         
-        <footer class = "fluid-container custom-head-foot">
+        <footer id="footer-id" class = "fluid-container custom-head-foot">
             
-            <h4>Big thanks to the following service that helped me all the way Build this website and archive my projects.</h5>
-            <h4>Thanks: 
+            <p>Big thanks to the following service that helped me all the way Build this website and archive my projects.</p>
+            <p>Thanks: 
                 <a href="https://stackoverflow.com/">StackOverflow</a>,
                 <a href="https://github.com/">GitHub</a>,
                 <a href="https://c9.io/">Cloud9</a>,
@@ -24,7 +24,7 @@
                 <a href="https://www.udacity.com">Udacity</a>,
                 <a href="https://www.udemy.com">Udemy</a> &
                 <a href="https://www.w3schools.com">W3Schools</a>.
-            </h4>
+            </p>
             
         </footer>
     

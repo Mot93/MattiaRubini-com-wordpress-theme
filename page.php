@@ -1,5 +1,7 @@
 <?php
 /**
+ * Template Name: Default Page
+ * 
  * The template for displaying pages
  *
  * This is the template that displays all pages by default.
@@ -21,9 +23,9 @@ get_header(); ?>
     	
     			<h1><?php the_title(); ?></h1>
     			
-    			<h3>
+    			<p>
     			    <?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
-                </h3>
+                </p>
     	
             <?php endwhile; ?>
     	<?php endif; ?>
