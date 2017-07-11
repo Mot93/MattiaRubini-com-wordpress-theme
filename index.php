@@ -45,7 +45,9 @@ get_header(); ?>
             <?php while ( have_posts() ) : the_post(); //Default loop code ?>
     	
     			<?php the_title( sprintf( '<h2 class = "entry-title"><a href = "%s" rel = "bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); /*The title is a link to the contenent*/ ?>
-    			<?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
+    			<p>
+    			    <?php the_content(); /*How much contenent to show is decided by the word press admin section*/?>
+    			</p>
     	
             <?php endwhile; ?>
     	<?php endif; ?>

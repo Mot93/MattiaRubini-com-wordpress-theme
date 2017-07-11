@@ -24,7 +24,7 @@
 
 /*Customize di "container" of the post*/
 .single-post-customization{
-	margin-top: 30px;
+	margin-top: 0px;
 	background-color: yellow;
 	padding: 0;
 }
@@ -113,3 +113,6 @@ footer{
 	background-color: black;
 }
 
+.blog-content-overflowing{
+	max-width: 100%;
+}

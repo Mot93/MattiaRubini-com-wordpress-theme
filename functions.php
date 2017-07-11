@@ -31,6 +31,11 @@
  * @since ???
  */
 
+
+/*IMPORTANT REMINDER
+ *https://developer.wordpress.org/reference/functions/__/
+ */
+
 /*Function dedicated to integrate style.css and the bootstrap library to the project*/
 function enqueue_customtheme_styles(){
     /*Linking javascript bootstrap (and jquery that is already in wordpress)*/
@@ -62,5 +67,25 @@ function enqueue_custom_menus(){
     
 }
 add_action('after_setup_theme', 'enqueue_custom_menus');
+
+/**
+ * Register our sidebars and widgetized areas.
+ *
+ */
+function arphabet_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => 'Blog single page right sidebar',
+		'id'            => 'blog_single_sidebar',
+		'description'   => 'Widget sidebar used as an ads container',
+		'class'         => '',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 ?>

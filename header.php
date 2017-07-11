@@ -20,10 +20,20 @@
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
         <?php wp_head(); ?>
-        <!--from here on is personal tweaking-->
         
+        <!--This part is needed for the advertisement-->
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4047734154628476",
+            enable_page_level_ads: true
+          });
+        </script>
+        
+        <!--from here on is personal tweaking-->
+    
         <!--viewport introduced for a better mobile experience 
-          more documentation at: https://www.w3schools.com/css/css_rwd_viewport.asp-->
+            more documentation at: https://www.w3schools.com/css/css_rwd_viewport.asp-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
