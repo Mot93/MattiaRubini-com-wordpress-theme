@@ -13,11 +13,18 @@ get_header(); ?>
     
     <div class="container-fluid row">
         
-        <div class="col-md-pull-2">
+        <!--Using push and pull from bootstrap grid system coloumn ordering
+            Coloumn change order when in mobile to get on top the advertisement
+            push-3 col-1->col-1->col-1->  
+            pull-4 <-col-1<-col-1<-col-2
+            col and push moves the elements around
+            -->
+        
+        <div class="container col-md-2 col-md-push-9">
             <?php dynamic_sidebar( 'blog_single_sidebar' ); /*injecting the widget bar*/?>
         </div><!--widget container-->
         
-        <div class="container single-post-customization col-md-offset-1 col-md-push-8">
+        <div class="container single-post-customization col-md-8 col-md-pull-1">
             
             <div class="container blog-content-overflowing">
                 
@@ -39,6 +46,8 @@ get_header(); ?>
             </div><!--Container of the post content-->
             
         </div><!--container of both meta and content-->
+        
+        
         
     </div><!--container of both the blog post and the widget bar-->
 
