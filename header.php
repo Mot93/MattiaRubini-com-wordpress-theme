@@ -55,10 +55,6 @@
                             <a id = "home-button" class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                                 <!--using a glyphcon from bootstrap-->
                                 <span class = "glyphicon glyphicon-home custom-home-glyphicon-bootstrap" aria-hidden="true"></span>
-                                <!--Using an image
-                                <img src="<?php /*bloginfo('template_url'); */?>/images/home-icon.png" alt="home icon">-->
-                                <!--Inserting the home word
-                                <span>Home</span>-->
                             </a><!--Home button--> 
                             
                             <!--This is the button that appear when everything collapse-->
