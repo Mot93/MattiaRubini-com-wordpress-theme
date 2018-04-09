@@ -1,0 +1,134 @@
+/*
+	Theme Name: Mattia-Rubini-com
+	Theme URI: https://mattiarubini.com
+	Author: Mattia Rubini
+	Author URI: https://mattiarubini.com
+	Description: Theme of the website https://mattiarubini.com
+	Version: 1.0
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: customtheme
+*/
+
+/*Trying to make a css variable
+:root{
+    --main-color:#EDEBE6;
+}*/
+
+/*Both the nav bar and the footer must have the same colors*/
+.custom-head-foot{
+	background-color: #464294;
+	color: white;
+	font-size: 17px;
+}
+
+/*Customize di "container" of the post*/
+.single-post-customization{
+	margin-top: 0px;
+	/*background-color: #D3DEEF;*/
+	background-color: #CDD8E8;
+	padding: 0;
+}
+
+/*Icon bar is the ID of the icon paced in the menu after it has collapsed*/
+.collapse-icon-customization {
+	border-color: white !important;
+}
+.trio-bar-collapse-button{
+	background-color: white !important;
+}
+.collapse-icon-customization:hover{
+	background-color: #464294 !important;
+}
+/*Should be deactivated*/
+.collapse-icon-customization:focus{
+	background-color: #464294 !important;
+}
+
+/*This code personalize the links (<a>) inside the dynamic menu
+ *It is possible thanks to the selector >*/
+#dynamic-menu-custom-ul > li > a{
+	color: white;
+}
+#dynamic-menu-custom-ul > li > a:hover{
+	background-color: #21284F;
+}
+#home-button > a:hover > span {
+	color: blue;
+}
+
+/*Customizations of the nav bar*/
+.no-border-navbar{
+	border-radius: 0 !important;
+	border: 0 !important;
+	/*Must be the same as html and bodybackground-color*/
+	/*border-color: #EDEBE6;*/
+}
+
+/*Let's change all the links color*/
+a {
+	color: #4957A3;
+}
+
+a:hover {
+	color: #21284F;
+}
+
+/*Using p to wrap a page or blog post content*/
+p {
+	font-size: 19px;
+}
+
+/*This way all images are contained inside theyr container*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer > p > a {
+	color: white;
+}
+
+footer > p {
+	color: #B1BFDD;
+}
+
+/*html, body and #wrapper have been set up to accomodate a gratious footer*/
+html, body{
+	/*using min-height instead of height will "breack the footer"
+	 *the foter wont stay at the bottom of the page*/
+	height: 100%;
+	background-color: #F5F2EE;
+}
+.wrapper-custom{
+	min-height: 100%;
+	margin-bottom: -80px;
+}
+
+/*The jumbotron background color need to match the color of the html and body*/
+.index-jumbotron-customization{
+	background-color: #F5F2EE;
+}
+
+/*Minor footer tweaking*/
+footer{
+	text-align: center;
+	padding: 5px;
+}
+/*Push prevent the footer to lay above the content*/
+.push-customization{
+	height: 150px;
+}
+
+.custom-home-glyphicon-bootstrap{
+	color: white;
+}
+
+.black-button{
+	color: white;
+	background-color: black;
+}
+
+.blog-content-overflowing{
+	max-width: 100%;
+}
